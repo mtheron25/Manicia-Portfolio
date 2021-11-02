@@ -1,11 +1,12 @@
 #Home {
-  height: 100vh;
+  height: 110vh;
   background-size: cover;
   background-image: url(./bg.png);
+  background-color: darkblue;
 }
 
 #About {
-  height: 100vh;
+  height: 130vh;
   background-color: lightblue;
 }
 
@@ -16,10 +17,28 @@ td {
   margin-left: 100px;
 }
 
+.flex-container {
+  margin-left: 100px;
+}
+
 h2 {
   text-align: center;
   font-weight: bolder;
   padding-top: 70px;
+}
+
+h3 {
+  margin-left: 100px;
+  font-weight: bolder;
+}
+
+.card {
+  float: left;
+  width: 20%;
+  margin-left: 100px;
+  padding: 1px;
+  margin: 100px;
+  align-self: center;
 }
 
 .mona {
@@ -27,6 +46,7 @@ h2 {
   height: 500px;
   float: right;
   margin-right: 100px;
+  padding-top: 100px;
 }
 
 p {
@@ -39,10 +59,12 @@ p {
   padding: 20px;
   border: 10px;
   margin-left: 100px;
+  color: black;
 }
 
 #Work-Education {
   height: 130vh;
+  background-color: pink;
 }
 
 .timeline {
@@ -70,6 +92,7 @@ p {
   margin-left: -3px;
   background: #505050;
   z-index: 5;
+  border-width: 5px solid;
 }
 .timeline li {
   padding: 1em 0;
@@ -205,7 +228,7 @@ p {
 .flag-wrapper .flag {
   position: relative;
   display: inline;
-  background: #f8f8f8;
+  background: transparent;
   padding: 6px 10px;
   border-radius: 5px;
   font-weight: 600;
@@ -247,7 +270,7 @@ p {
   display: inline;
   line-height: 1em;
   font-size: 0.66666em;
-  color: #58b96b;
+  color: black;
   vertical-align: middle;
 }
 @media (max-width: 860px) {
@@ -261,7 +284,7 @@ p {
 .time-wrapper .time {
   display: inline-block;
   padding: 4px 6px;
-  background: #f8f8f8;
+  background: transparent;
 }
 .desc {
   margin: 1em 0.75em 0 0;
@@ -270,7 +293,7 @@ p {
   line-height: 1.5em;
 }
 .desc a {
-  color: #58b96b;
+  color: black;
   text-decoration: none;
 }
 .desc a:hover {
@@ -289,38 +312,111 @@ p {
 
 #Skills {
   height: 100vh;
+  background-color: lightblue;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 75%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 50%;
+  background-color: #2196f3;
+}
+.js {
+  width: 90%;
+  background-color: #f44336;
+}
+.php {
+  width: 60%;
+  background-color: #808080;
 }
 
 #Projects {
   height: 100vh;
+  background-color: pink;
 }
 
 #Testimonials {
-  height: 100vh;
+  height: 130vh;
+  background-color: lightblue;
 }
 
 #Contact {
   height: 100vh;
+  background-color: pink;
 }
 
+.form {
+  background: rgba(224, 16, 176, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  justify-content: center;
+  text-decoration: solid;
+  text-align: center;
+  width: 600px;
+  height: 500px;
+}
+
+.links {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  margin: 20px;
+}
+
+.caption {
+  font: bolder;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.contact-me {
+  display: flex;
+  padding: 200px;
+  justify-content: space-between;
+}
+.input {
+  width: 60%;
+}
+.input2 {
+  width: 60%;
+  height: 100px;
+}
+input,
+textarea {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 h1 {
-  margin-top: 400px;
-  color: black;
-  font-size: 50px;
-  float: inline-end;
-  margin-right: 400px;
-  font-weight: bolder;
+  color: white;
+  padding: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
 }
 
-#landing {
+.landing {
   display: flex;
   padding: 100px;
 }
 
 .momo {
   width: 600px;
-  height: 700px;
-  margin-top: 100px;
+  height: 500px;
+  margin-top: 300px;
   text-align: right;
   margin-left: 200px;
 }
